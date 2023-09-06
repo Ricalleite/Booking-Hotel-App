@@ -38,8 +38,36 @@ namespace TrybeHotel.Repository
         }
 
         // 8. Refatore o endpoint POST /room
-        public RoomDto AddRoom(Room room) {
-            throw new NotImplementedException();
+        public RoomDto AddRoom(Room room) 
+        {
+            _context.Rooms.Add(room);
+            _context.SaveChanges();
+
+            var hotelData = from h in _context.Hotels
+                            join r in _context.Rooms on h.HotelId equals r.HotelId
+                            where h.HotelId == room.HotelId
+                            select new HotelDto
+                            {
+                                HotelId = h.HotelId,
+                                Name = h.Name,
+                                Address = h.Address,
+                                CityId = h.CityId,
+                                CityName = (from city in _context.Cities
+                                            where city.CityId == h.CityId
+                                            select city.Name).First(),
+                                State = (from city in _context.Cities
+                                         where city.CityId == h.CityId
+                                         select city.State).First(),
+                           };
+
+            return new RoomDto
+            {
+                RoomId = room.RoomId, 
+                Name = room.Name, 
+                Capacity = room.Capacity, 
+                Image = room.Image,
+                Hotel = hotelData.First()
+            };
         }
 
         public void DeleteRoom(int RoomId) {

@@ -24,8 +24,11 @@ namespace TrybeHotel.Controllers
         }
 
         [HttpPost]
-        public IActionResult PostRoom([FromBody] Room room){
-            throw new NotImplementedException();
+        [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
+        [Authorize(Policy = "admin")]
+        public IActionResult PostRoom([FromBody] Room room)
+        {
+            return Created("New room added", _repository.AddRoom(room));
         }
 
         [HttpDelete("{RoomId}")]
