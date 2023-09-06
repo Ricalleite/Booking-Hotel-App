@@ -14,7 +14,18 @@ namespace TrybeHotel.Repository
         //  5. Refatore o endpoint GET /hotel
         public IEnumerable<HotelDto> GetHotels()
         {
-            throw new NotImplementedException();
+            List<HotelDto> hotels = (from hotel in _context.Hotels
+                                     join city in _context.Cities on hotel.CityId equals city.CityId
+                                     select new HotelDto
+                                    {
+                                        HotelId = hotel.HotelId,
+                                        Name = hotel.Name,
+                                        Address = hotel.Address,
+                                        CityId = hotel.CityId,
+                                        CityName = city.Name,
+                                        State = city.State,
+                                    }).ToList();
+            return hotels;
         }
 
         // 6. Refatore o endpoint POST /hotel
