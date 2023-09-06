@@ -18,8 +18,9 @@ namespace TrybeHotel.Controllers
         }
 
         [HttpGet("{HotelId}")]
-        public IActionResult GetRoom(int HotelId){
-            throw new NotImplementedException();
+        public IActionResult GetRoom(int HotelId)
+        {
+            return Ok(_repository.GetRooms(HotelId));
         }
 
         [HttpPost]
