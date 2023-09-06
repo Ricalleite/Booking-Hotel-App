@@ -48,27 +48,6 @@
         {
           "ruleId": "CS8604",
           "level": "warning",
-          "message": "Possível argumento de referência nula para o parâmetro 'value' em 'Claim.Claim(string type, string value)'.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///home/ricardo/Projetos/csharp-026-csharp-projeto-trybe-hotel-fase-c/src/TrybeHotel/Services/TokenGenerator.cs",
-                "region": {
-                  "startLine": 42,
-                  "startColumn": 62,
-                  "endLine": 42,
-                  "endColumn": 72
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CS8604",
-          "level": "warning",
           "message": "Possível argumento de referência nula para o parâmetro 'userEmail' em 'UserDto IUserRepository.GetUserByEmail(string userEmail)'.",
           "locations": [
             {
@@ -79,27 +58,6 @@
                   "startColumn": 56,
                   "endLine": 32,
                   "endColumn": 66
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CS1998",
-          "level": "warning",
-          "message": "Este método assíncrono não possui operadores 'await' e será executado de modo síncrono. É recomendável o uso do operador 'await' para aguardar chamadas à API desbloqueadas ou do operador 'await Task.Run(...)' para realizar um trabalho associado à CPU em um thread em segundo plano.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///home/ricardo/Projetos/csharp-026-csharp-projeto-trybe-hotel-fase-c/src/TrybeHotel/Services/GeoService.cs",
-                "region": {
-                  "startLine": 16,
-                  "startColumn": 35,
-                  "endLine": 16,
-                  "endColumn": 47
                 }
               }
             }
@@ -142,6 +100,27 @@
                   "startColumn": 42,
                   "endLine": 35,
                   "endColumn": 61
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Este método assíncrono não possui operadores 'await' e será executado de modo síncrono. É recomendável o uso do operador 'await' para aguardar chamadas à API desbloqueadas ou do operador 'await Task.Run(...)' para realizar um trabalho associado à CPU em um thread em segundo plano.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/ricardo/Projetos/csharp-026-csharp-projeto-trybe-hotel-fase-c/src/TrybeHotel/Services/GeoService.cs",
+                "region": {
+                  "startLine": 16,
+                  "startColumn": 35,
+                  "endLine": 16,
+                  "endColumn": 47
                 }
               }
             }
@@ -205,6 +184,111 @@
                   "startColumn": 20,
                   "endLine": 23,
                   "endColumn": 24
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8604",
+          "level": "warning",
+          "message": "Possível argumento de referência nula para o parâmetro 'value' em 'Claim.Claim(string type, string value)'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/ricardo/Projetos/csharp-026-csharp-projeto-trybe-hotel-fase-c/src/TrybeHotel/Services/TokenGenerator.cs",
+                "region": {
+                  "startLine": 42,
+                  "startColumn": 62,
+                  "endLine": 42,
+                  "endColumn": 72
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8603",
+          "level": "warning",
+          "message": "Possível retorno de referência nula.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/ricardo/Projetos/csharp-026-csharp-projeto-trybe-hotel-fase-c/src/TrybeHotel/Repository/BookingRepository.cs",
+                "region": {
+                  "startLine": 22,
+                  "startColumn": 24,
+                  "endLine": 22,
+                  "endColumn": 28
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8602",
+          "level": "warning",
+          "message": "Desreferência de uma referência possivelmente nula.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/ricardo/Projetos/csharp-026-csharp-projeto-trybe-hotel-fase-c/src/TrybeHotel/Repository/BookingRepository.cs",
+                "region": {
+                  "startLine": 46,
+                  "startColumn": 72,
+                  "endLine": 46,
+                  "endColumn": 77
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8602",
+          "level": "warning",
+          "message": "Desreferência de uma referência possivelmente nula.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/ricardo/Projetos/csharp-026-csharp-projeto-trybe-hotel-fase-c/src/TrybeHotel/Repository/BookingRepository.cs",
+                "region": {
+                  "startLine": 62,
+                  "startColumn": 35,
+                  "endLine": 62,
+                  "endColumn": 40
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8602",
+          "level": "warning",
+          "message": "Desreferência de uma referência possivelmente nula.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/ricardo/Projetos/csharp-026-csharp-projeto-trybe-hotel-fase-c/src/TrybeHotel/Repository/BookingRepository.cs",
+                "region": {
+                  "startLine": 66,
+                  "startColumn": 36,
+                  "endLine": 66,
+                  "endColumn": 40
                 }
               }
             }

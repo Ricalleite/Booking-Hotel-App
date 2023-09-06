@@ -22,9 +22,20 @@ namespace TrybeHotel.Controllers
 
         [HttpPost]
         [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
-        [Authorize(Policy = "Client")]
-        public IActionResult Add([FromBody] BookingDtoInsert bookingInsert){
-            throw new NotImplementedException();
+        [Authorize(Policy = "client")]
+        public IActionResult Add([FromBody] BookingDtoInsert bookingInsert)
+        {
+            try
+            {
+                var userEmail = User.FindFirstValue(ClaimTypes.Email);
+                var bookingResult = _repository.Add(bookingInsert, userEmail);
+
+                return Created("New booking done!", bookingResult);
+            }
+            catch (Exception)
+            {
+                return BadRequest(new { message = "Guest quantity over room capacity" });
+            }
         }
 
 
