@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "VGirGjA8IJbVNtjH8aNjfFCU9t69323PuA7aigyEHS1ItG8/UmK14piNexOOoNG7S3aASlh1lqOfV3NssQ1KAQ==",
+  "dgSpecHash": "Pfr+NiZ6VeYoJocjeHXSap75EE58B21nG9TJzXfFM1oyISMVrQc1RAVw3pJ8tgophTcpIlZI7ivQeL9hAm+qcg==",
   "success": true,
   "projectFilePath": "/home/ricardo/Projetos/csharp-026-csharp-projeto-trybe-hotel-fase-c/src/TrybeHotel.Test/TrybeHotel.test.csproj",
   "expectedPackageFiles": [
