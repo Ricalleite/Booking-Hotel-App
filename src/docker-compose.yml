@@ -1,0 +1,11 @@
+version: '3'
+services:
+  dbmysql:
+    image: mysql:8.0.21
+    container_name: booking_hotel_ap_db_mysql
+    platform: linux/x86-64
+    ports:
+        - 3308:3306
+    enviroment:
+      - MYSQL_ROOT_PASSWORD=123456
+    restart: 'always'
