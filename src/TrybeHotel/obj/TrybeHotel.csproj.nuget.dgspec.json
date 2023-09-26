@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/ricardo/Projetos/csharp-026-csharp-projeto-trybe-hotel-fase-c/src/TrybeHotel/TrybeHotel.csproj": {}
+    "/home/ricardo/Meus_Projetos/Booking-Hotel-App/src/TrybeHotel/TrybeHotel.csproj": {}
   },
   "projects": {
-    "/home/ricardo/Projetos/csharp-026-csharp-projeto-trybe-hotel-fase-c/src/TrybeHotel/TrybeHotel.csproj": {
+    "/home/ricardo/Meus_Projetos/Booking-Hotel-App/src/TrybeHotel/TrybeHotel.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/ricardo/Projetos/csharp-026-csharp-projeto-trybe-hotel-fase-c/src/TrybeHotel/TrybeHotel.csproj",
+        "projectUniqueName": "/home/ricardo/Meus_Projetos/Booking-Hotel-App/src/TrybeHotel/TrybeHotel.csproj",
         "projectName": "TrybeHotel",
-        "projectPath": "/home/ricardo/Projetos/csharp-026-csharp-projeto-trybe-hotel-fase-c/src/TrybeHotel/TrybeHotel.csproj",
+        "projectPath": "/home/ricardo/Meus_Projetos/Booking-Hotel-App/src/TrybeHotel/TrybeHotel.csproj",
         "packagesPath": "/home/ricardo/.nuget/packages/",
-        "outputPath": "/home/ricardo/Projetos/csharp-026-csharp-projeto-trybe-hotel-fase-c/src/TrybeHotel/obj/",
+        "outputPath": "/home/ricardo/Meus_Projetos/Booking-Hotel-App/src/TrybeHotel/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/ricardo/.nuget/NuGet/NuGet.Config"
@@ -63,6 +63,14 @@
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[7.0.4, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql.Design": {
+              "target": "Package",
+              "version": "[1.1.2, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
