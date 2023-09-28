@@ -13,11 +13,11 @@ public class TrybeHotelContext : DbContext, ITrybeHotelContext
         Seeder.SeedUserAdmin(this);
     }
     public TrybeHotelContext() { }
-    
+     
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder) 
     {
-        var connectionString = "Server=localhost;Database=TrybeHotel;User=SA;Password=TrybeHotel12!;TrustServerCertificate=True";
-        optionsBuilder.UseSqlServer(connectionString);
+        var connectionString = "Server=containers-us-west-90.railway.app;Database=railway;User Id=root;Password=riUDE0l1bWWnXDhcBDSt;Port=7400";
+        optionsBuilder.UseMySql(connectionString, ServerVersion.AutoDetect(connectionString), null);
     }
 
     protected override void OnModelCreating(ModelBuilder modelBuilder) {}

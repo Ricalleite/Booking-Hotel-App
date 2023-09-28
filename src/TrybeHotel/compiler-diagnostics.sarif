@@ -88,153 +88,6 @@
           }
         },
         {
-          "ruleId": "CS8603",
-          "level": "warning",
-          "message": "Possível retorno de referência nula.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///home/ricardo/Meus_Projetos/Booking-Hotel-App/src/TrybeHotel/Repository/UserRepository.cs",
-                "region": {
-                  "startLine": 23,
-                  "startColumn": 20,
-                  "endLine": 23,
-                  "endColumn": 24
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CS8603",
-          "level": "warning",
-          "message": "Possível retorno de referência nula.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///home/ricardo/Meus_Projetos/Booking-Hotel-App/src/TrybeHotel/Repository/BookingRepository.cs",
-                "region": {
-                  "startLine": 22,
-                  "startColumn": 24,
-                  "endLine": 22,
-                  "endColumn": 28
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CS8602",
-          "level": "warning",
-          "message": "Desreferência de uma referência possivelmente nula.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///home/ricardo/Meus_Projetos/Booking-Hotel-App/src/TrybeHotel/Repository/BookingRepository.cs",
-                "region": {
-                  "startLine": 46,
-                  "startColumn": 72,
-                  "endLine": 46,
-                  "endColumn": 77
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CS8602",
-          "level": "warning",
-          "message": "Desreferência de uma referência possivelmente nula.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///home/ricardo/Meus_Projetos/Booking-Hotel-App/src/TrybeHotel/Repository/BookingRepository.cs",
-                "region": {
-                  "startLine": 62,
-                  "startColumn": 35,
-                  "endLine": 62,
-                  "endColumn": 40
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CS8602",
-          "level": "warning",
-          "message": "Desreferência de uma referência possivelmente nula.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///home/ricardo/Meus_Projetos/Booking-Hotel-App/src/TrybeHotel/Repository/BookingRepository.cs",
-                "region": {
-                  "startLine": 66,
-                  "startColumn": 36,
-                  "endLine": 66,
-                  "endColumn": 40
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CS8602",
-          "level": "warning",
-          "message": "Desreferência de uma referência possivelmente nula.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///home/ricardo/Meus_Projetos/Booking-Hotel-App/src/TrybeHotel/Repository/UserRepository.cs",
-                "region": {
-                  "startLine": 40,
-                  "startColumn": 28,
-                  "endLine": 40,
-                  "endColumn": 38
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CS8603",
-          "level": "warning",
-          "message": "Possível retorno de referência nula.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///home/ricardo/Meus_Projetos/Booking-Hotel-App/src/TrybeHotel/Repository/UserRepository.cs",
-                "region": {
-                  "startLine": 69,
-                  "startColumn": 22,
-                  "endLine": 69,
-                  "endColumn": 26
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
           "ruleId": "CS1998",
           "level": "warning",
           "message": "Este método assíncrono não possui operadores 'await' e será executado de modo síncrono. É recomendável o uso do operador 'await' para aguardar chamadas à API desbloqueadas ou do operador 'await Task.Run(...)' para realizar um trabalho associado à CPU em um thread em segundo plano.",
@@ -247,69 +100,6 @@
                   "startColumn": 42,
                   "endLine": 35,
                   "endColumn": 61
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CS8603",
-          "level": "warning",
-          "message": "Possível retorno de referência nula.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///home/ricardo/Meus_Projetos/Booking-Hotel-App/src/TrybeHotel/Repository/UserRepository.cs",
-                "region": {
-                  "startLine": 87,
-                  "startColumn": 20,
-                  "endLine": 87,
-                  "endColumn": 24
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CS8602",
-          "level": "warning",
-          "message": "Desreferência de uma referência possivelmente nula.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///home/ricardo/Meus_Projetos/Booking-Hotel-App/src/TrybeHotel/Repository/BookingRepository.cs",
-                "region": {
-                  "startLine": 87,
-                  "startColumn": 37,
-                  "endLine": 87,
-                  "endColumn": 43
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CS8603",
-          "level": "warning",
-          "message": "Possível retorno de referência nula.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///home/ricardo/Meus_Projetos/Booking-Hotel-App/src/TrybeHotel/Repository/BookingRepository.cs",
-                "region": {
-                  "startLine": 114,
-                  "startColumn": 40,
-                  "endLine": 114,
-                  "endColumn": 44
                 }
               }
             }
@@ -478,6 +268,216 @@
                   "startColumn": 103,
                   "endLine": 85,
                   "endColumn": 118
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8603",
+          "level": "warning",
+          "message": "Possível retorno de referência nula.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/ricardo/Meus_Projetos/Booking-Hotel-App/src/TrybeHotel/Repository/UserRepository.cs",
+                "region": {
+                  "startLine": 23,
+                  "startColumn": 20,
+                  "endLine": 23,
+                  "endColumn": 24
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8602",
+          "level": "warning",
+          "message": "Desreferência de uma referência possivelmente nula.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/ricardo/Meus_Projetos/Booking-Hotel-App/src/TrybeHotel/Repository/UserRepository.cs",
+                "region": {
+                  "startLine": 40,
+                  "startColumn": 28,
+                  "endLine": 40,
+                  "endColumn": 38
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8603",
+          "level": "warning",
+          "message": "Possível retorno de referência nula.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/ricardo/Meus_Projetos/Booking-Hotel-App/src/TrybeHotel/Repository/UserRepository.cs",
+                "region": {
+                  "startLine": 69,
+                  "startColumn": 22,
+                  "endLine": 69,
+                  "endColumn": 26
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8603",
+          "level": "warning",
+          "message": "Possível retorno de referência nula.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/ricardo/Meus_Projetos/Booking-Hotel-App/src/TrybeHotel/Repository/UserRepository.cs",
+                "region": {
+                  "startLine": 87,
+                  "startColumn": 20,
+                  "endLine": 87,
+                  "endColumn": 24
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8603",
+          "level": "warning",
+          "message": "Possível retorno de referência nula.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/ricardo/Meus_Projetos/Booking-Hotel-App/src/TrybeHotel/Repository/BookingRepository.cs",
+                "region": {
+                  "startLine": 22,
+                  "startColumn": 24,
+                  "endLine": 22,
+                  "endColumn": 28
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8602",
+          "level": "warning",
+          "message": "Desreferência de uma referência possivelmente nula.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/ricardo/Meus_Projetos/Booking-Hotel-App/src/TrybeHotel/Repository/BookingRepository.cs",
+                "region": {
+                  "startLine": 46,
+                  "startColumn": 72,
+                  "endLine": 46,
+                  "endColumn": 77
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8602",
+          "level": "warning",
+          "message": "Desreferência de uma referência possivelmente nula.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/ricardo/Meus_Projetos/Booking-Hotel-App/src/TrybeHotel/Repository/BookingRepository.cs",
+                "region": {
+                  "startLine": 62,
+                  "startColumn": 35,
+                  "endLine": 62,
+                  "endColumn": 40
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8602",
+          "level": "warning",
+          "message": "Desreferência de uma referência possivelmente nula.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/ricardo/Meus_Projetos/Booking-Hotel-App/src/TrybeHotel/Repository/BookingRepository.cs",
+                "region": {
+                  "startLine": 66,
+                  "startColumn": 36,
+                  "endLine": 66,
+                  "endColumn": 40
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8602",
+          "level": "warning",
+          "message": "Desreferência de uma referência possivelmente nula.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/ricardo/Meus_Projetos/Booking-Hotel-App/src/TrybeHotel/Repository/BookingRepository.cs",
+                "region": {
+                  "startLine": 87,
+                  "startColumn": 37,
+                  "endLine": 87,
+                  "endColumn": 43
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8603",
+          "level": "warning",
+          "message": "Possível retorno de referência nula.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/ricardo/Meus_Projetos/Booking-Hotel-App/src/TrybeHotel/Repository/BookingRepository.cs",
+                "region": {
+                  "startLine": 114,
+                  "startColumn": 40,
+                  "endLine": 114,
+                  "endColumn": 44
                 }
               }
             }

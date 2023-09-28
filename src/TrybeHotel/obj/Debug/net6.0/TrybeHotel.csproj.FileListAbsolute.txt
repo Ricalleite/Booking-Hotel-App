@@ -168,3 +168,7 @@
 /home/ricardo/Meus_Projetos/Booking-Hotel-App/src/TrybeHotel/obj/Debug/net6.0/TrybeHotel.pdb
 /home/ricardo/Meus_Projetos/Booking-Hotel-App/src/TrybeHotel/obj/Debug/net6.0/TrybeHotel.genruntimeconfig.cache
 /home/ricardo/Meus_Projetos/Booking-Hotel-App/src/TrybeHotel/obj/Debug/net6.0/ref/TrybeHotel.dll
+/home/ricardo/Meus_Projetos/Booking-Hotel-App/src/TrybeHotel/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Relational.Design.dll
+/home/ricardo/Meus_Projetos/Booking-Hotel-App/src/TrybeHotel/bin/Debug/net6.0/MySqlConnector.dll
+/home/ricardo/Meus_Projetos/Booking-Hotel-App/src/TrybeHotel/bin/Debug/net6.0/Pomelo.EntityFrameworkCore.MySql.dll
+/home/ricardo/Meus_Projetos/Booking-Hotel-App/src/TrybeHotel/bin/Debug/net6.0/Pomelo.EntityFrameworkCore.MySql.Design.dll
